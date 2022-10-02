@@ -22,9 +22,19 @@
 ```
 > cd <your path to project dir>
 > python -m venv ./project_venv
-> python myenv/bin/activate
+> source project_venv/bin/activate
 > python -m pip -r install requirements.txt
 ```
+Для ~~страдальцев~~ пользователей Windows:
+```
+> cd <your path to project dir>
+> python -m venv ./project_venv
+> cd project_venv/Scripts
+> cd activate
+> cd <your path to project dir>
+> python -m pip -r install requirements.txt
+```
+
 
 ### 2. Запуск программы
 
