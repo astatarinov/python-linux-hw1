@@ -34,7 +34,7 @@
 > cd <your path to project dir>
 > python -m venv ./project_venv
 > source project_venv/bin/activate
-> python -m pip -r install requirements.txt
+> python -m pip install -r requirements.txt
 ```
 Для ~~страдальцев~~ пользователей Windows:
 ```
@@ -43,7 +43,7 @@
 > cd project_venv/Scripts
 > cd activate
 > cd <your path to project dir>
-> python -m pip -r install requirements.txt
+> python -m pip install -r requirements.txt
 ```
 
 
@@ -51,7 +51,7 @@
 
 Скрипт запускается из командной строки:
 
-```python3 parser.py [-h] [-d] [-s] [-p] url```
+```python parser.py [-h] [-d] [-s] [-p] url```
 
 Параметры:
 - `-h` - вызов помощи 
@@ -109,17 +109,10 @@ Parsing process finished.
 3 https://younglinux.info/bash/findfiles
 ...
 ```
-- в папке **data/** файлы
+- в папке **data/** файлы:
 ```
 1.html
 2.html
 3.html
 ...
 ```
-
-
-
-
-
-
-
